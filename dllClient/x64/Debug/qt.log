@@ -1,0 +1,3 @@
+dllClient.h|"C:\Users\user\Desktop\dllClient\dllClient.h" -o ".\GeneratedFiles\Debug\moc_dllClient.cpp" "-I.\GeneratedFiles" "-I." "-IC:\Qt\5.8\msvc2013_64\include" "-I.\GeneratedFiles\Debug" "-IC:\Qt\5.8\msvc2013_64\include\QtCore" "-IC:\Qt\5.8\msvc2013_64\include\QtGui" "-IC:\Qt\5.8\msvc2013_64\include\QtANGLE" "-IC:\Qt\5.8\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+dllClient.qrc|"C:\Users\user\Desktop\dllClient\dllClient.qrc" -o ".\GeneratedFiles\qrc_dllClient.cpp" --name dllClient
+dllClient.ui|"C:\Users\user\Desktop\dllClient\dllClient.ui" -o ".\GeneratedFiles\ui_dllClient.h"
