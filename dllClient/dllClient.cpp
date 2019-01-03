@@ -7,7 +7,7 @@ dllClient::dllClient(QWidget *parent)
 {
 	ui.setupUi(this);
 
-
+	// MFC DLL 프로젝트의 외부 호출이 가능하도록한 함수를 사용하는 코드 입니다.
 	char *(*testFunc)(char *);
 	HINSTANCE hInst = ::LoadLibrary(_T("./dlltest.dll"));
 		if (!hInst)
