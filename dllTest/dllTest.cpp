@@ -1,4 +1,4 @@
-// dllTest.cpp : DLL ÀÀ¿ë ÇÁ·Î±×·¥À» À§ÇØ ³»º¸³½ ÇÔ¼ö¸¦ Á¤ÀÇÇÕ´Ï´Ù.
+// dllTest.cpp : DLL ì‘ìš© í”„ë¡œê·¸ë¨ì„ ìœ„í•´ ë‚´ë³´ë‚¸ í•¨ìˆ˜ë¥¼ ì •ì˜í•©ë‹ˆë‹¤.
 //
 
 #include "stdafx.h"
@@ -9,7 +9,7 @@
 #endif
 
 
-// À¯ÀÏÇÑ ÀÀ¿ë ÇÁ·Î±×·¥ °³Ã¼ÀÔ´Ï´Ù.
+// ìœ ì¼í•œ ì‘ìš© í”„ë¡œê·¸ë¨ ê°œì²´ì…ë‹ˆë‹¤.
 
 CWinApp theApp;
 
@@ -17,30 +17,5 @@ using namespace std;
 
 int _tmain(int argc, TCHAR* argv[], TCHAR* envp[])
 {
-	int nRetCode = 0;
-
-	HMODULE hModule = ::GetModuleHandle(NULL);
-
-	if (hModule != NULL)
-	{
-		// MFC¸¦ ÃÊ±âÈ­ÇÕ´Ï´Ù. ÃÊ±âÈ­ÇÏÁö ¸øÇÑ °æ¿ì ¿À·ù¸¦ ÀÎ¼âÇÕ´Ï´Ù.
-		if (!AfxWinInit(hModule, NULL, ::GetCommandLine(), 0))
-		{
-			// TODO: ¿À·ù ÄÚµå¸¦ ÇÊ¿ä¿¡ µû¶ó ¼öÁ¤ÇÕ´Ï´Ù.
-			_tprintf(_T("½É°¢ÇÑ ¿À·ù: MFC¸¦ ÃÊ±âÈ­ÇÏÁö ¸øÇß½À´Ï´Ù.\n"));
-			nRetCode = 1;
-		}
-		else
-		{
-			// TODO: ÀÀ¿ë ÇÁ·Î±×·¥ÀÇ µ¿ÀÛÀº ¿©±â¿¡¼­ ÄÚµùÇÕ´Ï´Ù.
-		}
-	}
-	else
-	{
-		// TODO: ¿À·ù ÄÚµå¸¦ ÇÊ¿ä¿¡ µû¶ó ¼öÁ¤ÇÕ´Ï´Ù.
-		_tprintf(_T("½É°¢ÇÑ ¿À·ù: GetModuleHandle ½ÇÆĞ\n"));
-		nRetCode = 1;
-	}
-
-	return nRetCode;
+	
 }
