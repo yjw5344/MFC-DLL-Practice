@@ -27,15 +27,14 @@
 >>}~~~
 >>
 >
-
-
+<br><br><br>
 > dllClient (QT 프로젝트)
 >
 > : QT 기반 프로젝트로 예제에서 사용자 인터페이스(UI)를 담당한다.
 >
 >> 상세설명
 >>
->> [dllClient.cpp](dllClient/dllClient.cpp) 에서 DLL 프로젝트의 함수를 호출한다.
+>> [dllClient.cpp](dllClient/dllClient.cpp) 에서 DLL 프로젝트의 함수를 호출하여 사용한다.
 >>
 >> ~~~cpp
 >> char *(*testFunc)(char *);
