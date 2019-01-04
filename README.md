@@ -20,12 +20,12 @@
 >>
 >> [SendDLLFuction.cpp](dllTest/SendDLLFuction.cpp) 에서 통신을 위한 함수 외부 선언을 한다.
 >>
->> ~~~c++
+>> ~~~cpp
 >> extern "C" _declspec(dllexport) char *test(char *inStr)
 >>{
 >>	return "test";
->>}~~~
->>
+>>}
+>>~~~
 >
 <br><br><br>
 > dllClient (QT 프로젝트)
