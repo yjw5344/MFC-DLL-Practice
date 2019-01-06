@@ -14,7 +14,7 @@
 
 ## 설명
 
-> dllTest (MFC 프로젝트)
+> - dllTest (MFC 프로젝트)
 >
 > : MFC 기반 프로젝트로 예제에서 데이터 처리(DataProcess)를 담당한다.
 >
@@ -30,7 +30,7 @@
 >>~~~
 > <br>
 >
-> dllClient (QT 프로젝트)
+> - dllClient (QT 프로젝트)
 >
 > : QT 기반 프로젝트로 예제에서 사용자 인터페이스(UI)를 담당한다.
 >
