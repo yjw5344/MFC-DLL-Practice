@@ -28,9 +28,7 @@
 >>	return "test";
 >>}
 >>~~~
->
->
->
+> <br>
 >
 > dllClient (QT 프로젝트)
 >
